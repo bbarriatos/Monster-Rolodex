@@ -10,9 +10,10 @@ const Card = ({ monster: { name, email, id } }) => {
         alt={`monster ${name}`}
       />
       <h2>{name}</h2>
-      <p>{email} test</p>
+      <p>{email}</p>
     </div>
   );
 };
+``;
 
 export default Card;
